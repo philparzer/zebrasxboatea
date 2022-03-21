@@ -1,9 +1,9 @@
 export default function ZebrasHeader () {
     return (
-        <div className="flex justify-center bg-black text-white my-5">  
-            <div className="text-[80px] ">
+        <div className="flex justify-center bg-black text-white my-5 ">  
+            <h2 className="text-[80px] ">
                 Zebras
-            </div>
+            </h2>
         </div>
     )
 }

@@ -24,7 +24,7 @@ export default function ZebrasMobile () {
             </div>
             
             
-            <div className="flex justify-end">
+            <div className="flex justify-end ">
                     <div className="mt-[-160px]">      
                         <img src="img/maikel.png"></img>
                     </div>  

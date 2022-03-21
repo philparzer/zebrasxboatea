@@ -7,6 +7,9 @@ import Location from '../components/minimap'
 import OpeningTimes from '../components/openingTimes'
 import ZebrasHeader from '../components/zebras-header'
 import ZebrasMobile from '../components/zebras-mobile'
+import ZebrasLink from '../components/zebras-link'
+import Menu from '../components/menu'
+import Footer from '../components/footer'
 
 export default function Home() {
   return (
@@ -18,17 +21,24 @@ export default function Home() {
         <meta view="width=device-width, initial-scale=1" />
       </Head>
 
-      <div className="h-full bg-gradient-to-t from-[#F7C3DC] via-[#F8CBE1] to-[#FFFEFF] font-bungee"> {/*TODO: animate move updown */}
+      <div className="h-[100%] bg-gradient-to-t from-[#F7C3DC] via-[#F8CBE1] to-[#FFFEFF] font-bungee"> {/*TODO: animate move updown */}
           
         <Logo />
-        <Giveaway date="Q1 2022" pieces="3000" winners="5"/>
-        <Location />
-        <OpeningTimes />
-        <ZebrasHeader />
-        <ZebrasMobile />
-      </div>
-
+        <div className="bg-cover" style={{backgroundImage: 'url("./img/mobile-palm.png")'}}>
+          <Giveaway date="Q1 2022" pieces="3000" winners="5"/>
+          <Location />
+          <OpeningTimes />
+          <ZebrasHeader />
+        </div>
+          <ZebrasMobile />
+        
+        <ZebrasLink />
+        <div className="bg-cover" style={{backgroundImage: 'url("./img/mobile-skyline.png")'}}>
+          <Menu />
+          <Footer />
+        </div>
       
+    </div>
     </div>
   )
 }
