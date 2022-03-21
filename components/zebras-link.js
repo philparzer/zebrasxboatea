@@ -1,7 +1,7 @@
 export default function ZebrasLink() {
     return (
-        <>
-            <div className="flex flex-col px-10 mt-[-30px]">
+        <>  <a href="https://www.zebras.at/" target="_blank" rel="noopener noreferrer">
+            <div className="flex flex-col px-10 mt-[-30px] xl:mt-[-80px]">
                 <div>
                     Zebras?
                 </div>
@@ -25,7 +25,12 @@ export default function ZebrasLink() {
                     </defs>
                     </svg>
                 </div>
+
+                
+
             </div>
+            </a>
+            
         </>
     )
 }
