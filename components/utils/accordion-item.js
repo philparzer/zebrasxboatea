@@ -43,7 +43,7 @@ export default function AccordionItem (props) { //TODO: pass in open close state
                     <div className="">
                         <animated.span className="inline-block pt-3" style={iconAnimation}>
                         <svg width="21" height="15" viewBox="0 0 21 15" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M2 2L10.5 11L19 2" stroke="black" stroke-width="5"/>
+                            <path d="M2 2L10.5 11L19 2" stroke="black" strokeWidth="5"/>
                         </svg>
                         
                         </animated.span>

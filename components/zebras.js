@@ -25,9 +25,9 @@ export default function Zebras () {
             <div className="xl:hidden">
                 <div className="pt-5 mx-7 flex flex-col text-[20px] bg-white">
                     
-                    {
-                        zebraContent[slideIndex]
-                    }
+                     <div key={slideIndex}>{zebraContent[slideIndex]}</div>
+                        
+                    
 
                     <div className="relative self-center pt-10 pb-20 z-50" onClick={nextSlideHandler}>
                         
