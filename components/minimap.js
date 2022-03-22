@@ -3,7 +3,7 @@ export default function Minimap () {
         <>
             <div className="grid grid-cols-5 xl:grid-cols-6 pt-4 xl:ml-20">
                 <div className="col-span-5 xl:col-span-3 flex xl:justify-end">
-                    <a className="xl:flex w-[70%] xl:order-2 ml-10 transition-all duration-500 ease-in-out hover:brightness-125" href="https://www.google.com/maps/place/BoaTea+Urban+Drinks/@47.502142,9.7458335,19.25z/data=!4m5!3m4!1s0x479b13e5e4c676f5:0xfddd401cfb806c5!8m2!3d47.5021894!4d9.7461137" target="_blank" re="noopener noreferrer">
+                    <a className="xl:flex w-[70%] xl:order-2 ml-10 transition-all duration-500 ease-in-out hover:brightness-125" href="https://www.google.com/maps/place/BoaTea+Urban+Drinks/@47.502142,9.7458335,19.25z/data=!4m5!3m4!1s0x479b13e5e4c676f5:0xfddd401cfb806c5!8m2!3d47.5021894!4d9.7461137" target="_blank" rel="noopener noreferrer">
                         <div className="relative">
                             <img className="xl:hidden" src="img/minimap.png" ></img>
                             <img className="hidden xl:flex" src="img/minimap-lg.png"></img>
