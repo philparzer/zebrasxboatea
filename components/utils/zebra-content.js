@@ -40,7 +40,7 @@ const zebraContent = [
         <div className="text-center px-10 pt-4"><span className="text-[35px]">2.</span> Scanne den QR-CODE an der kassa</div>
         <div className="text-center px-10 pt-4"><span className="text-[35px]">3.</span> Logge dich über Metamask ein</div>
         <div className="text-center px-10 pt-4"><span className="text-[35px]">4.</span> Zeig dem personal beim Bezahlen deinen Bildschirm</div>
-        <div className="text-center pt-4 text-[50px] text-[#02B11A]"> <span className=" inline-block p-1">-10%</span></div>
+        <div className="text-center pt-4 text-[50px] text-[#02B11A]"> <span className=" inline-block p-1">-50%</span></div>
     </div>
 ]
 
