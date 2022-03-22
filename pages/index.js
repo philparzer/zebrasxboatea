@@ -21,7 +21,7 @@ export default function Home() {
         <meta view="width=device-width, initial-scale=1" />
       </Head>
 
-      <div className="h-[100%] bg-gradient-to-t from-[#F7C3DC] via-[#F8CBE1] to-[#FFFEFF] font-bungee overflow-x-hidden"> {/*TODO: animate move updown */}
+      <div className="h-[100%] bg-gradient-to-t from-[#ff9fcd] via-[#F8CBE1] to-[#d4e6f5]  font-bungee overflow-x-hiddeny animate-backgroundMove"  style={{backgroundSize: "400% 200%"}}>
         
       <div className="grid grid-cols-1 xl:grid-cols-3">
         <Logo />

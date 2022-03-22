@@ -40,6 +40,11 @@ module.exports = {
           '100%': {backgroundPosition: "0%  50%"},
           "50%": {backgroundPosition: "100%  50%"}
         },
+        backgroundMove: {
+          "0%": {backgroundPosition:"50% 2%"},
+          "50%": {backgroundPosition:"51% 99%"},
+          "100%": {backgroundPosition:"50% 2%"}
+        },
       },
       animation: {
         float: 'float 7s ease-in-out infinite',
@@ -47,6 +52,7 @@ module.exports = {
         clouds2: 'clouds1 20s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite',
         clouds3: 'clouds2 20s cubic-bezier( 0.36, 0.45, 0.63, 0.53) infinite',
         gradientMove: 'gradientMove 20s infinite',
+        backgroundMove: 'backgroundMove ease-in-out 10s infinite',
       },
     },
     

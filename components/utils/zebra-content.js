@@ -1,18 +1,18 @@
 const zebraContent = [
     
-    <div className="xl:text-[25px] xl:py-0 py-5">
+    <div className="xl:text-[25px] xl:py-0 py-5 lg:mr-10">
         <div className="text-center xl:px-10">Scanne den QR-Code auf deinem Becher</div>
         <div className="text-center pt-4"> <span className="text-[#02B11A] bg-black inline-block p-1 ">Gewonnen?</span></div>
     </div>
 ,
-    <div className="xl:text-[25px]">
-        <div className="text-center px-10 ">Du bist nun stolzer Besitzer eines</div>
+    <div className="xl:text-[25px] lg:mr-10">
+        <div className="text-center px-10 ">Du besitzt jetzt ein</div>
         <div className="text-center pt-4 px-10"> <span className="text-white bg-black inline-block p-1">BOATEA X ZEBRAS GUTSCHEIN-NFTs</span></div>
     </div>
 ,
-    <div className="xl:bg-white xl:mt-20 mr-8">
+    <div className="xl:bg-white xl:mt-20 lg:mr-10">
         <div className="text-center px-10 flex flex-row xl:grid xl:grid-cols-1 justify-center">
-            <div className="text-[30px] leading-tight flex flex-row items-center xl:order-2"><div>Was bringt das</div></div>
+            <div className="text-[30px] leading-tight flex flex-row items-center xl:order-2 lg:justify-center"><div>Was bringt das</div></div>
             <div className="xl:order-1 xl:mt-[-100px]">
                 <svg className="w-full" width="215" height="216" viewBox="0 0 215 216" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M68.7118 124.185L45.1266 138.036C44.009 138.647 43.0834 138.852 42.35 138.653C41.6781 138.428 41.006 137.769 40.3336 136.677L33.3124 125.304C32.6401 124.212 32.4216 123.255 32.6571 122.435C32.9541 121.588 33.6614 120.86 34.7791 120.249L52.0661 110.002C52.9377 109.494 53.4682 108.947 53.6576 108.362C53.8471 107.778 53.7492 107.024 53.3641 106.101C53.0047 105.24 52.5198 104.684 51.9094 104.433C51.2991 104.182 50.594 104.223 49.7941 104.557L24.3226 115.185C23.1536 115.673 22.1896 115.786 21.4305 115.525C20.7072 115.177 20.1017 114.418 19.6139 113.249L14.9544 102.082C14.4666 100.913 14.3661 99.9799 14.653 99.2823C14.9756 98.4975 15.7215 97.8613 16.8905 97.3735L46.6995 84.9352C52.6675 82.445 57.9338 81.9089 62.4987 83.3271C67.0378 84.6838 70.3985 87.9769 72.5806 93.2066L76.624 102.897C78.7805 108.065 79.0288 112.296 77.369 115.589C75.7091 118.882 72.8234 121.747 68.7118 124.185ZM68.8884 153.693L51.9997 160.74C50.8308 161.228 49.8667 161.341 49.1076 161.08C48.3843 160.732 47.7788 159.973 47.2911 158.804L42.2464 146.714C41.7586 145.545 41.6582 144.612 41.945 143.915C42.2677 143.13 43.0135 142.493 44.1825 142.006L61.0712 134.959C62.2402 134.471 63.1863 134.401 63.9095 134.749C64.6687 135.011 65.2921 135.726 65.7799 136.895L70.8245 148.984C71.3123 150.153 71.3948 151.13 71.0722 151.915C70.7853 152.613 70.0574 153.205 68.8884 153.693Z" fill="black"/>
@@ -24,7 +24,7 @@ const zebraContent = [
         </div>
         <div className=" pt-4 px-10 grid grid-cols-2">
             <div className=" inline-block text-[50px]">50%</div>
-            <div className="text-[14px] flex flex-row items-center">Rabatt solange du der Besitzer des NFTs bist</div>
+            <div className="text-[14px] flex flex-row items-center">Rabatt solange du ein NFT besitzt</div>
             <div className=" inline-block text-[50px]">$$$</div>
             <div className="text-[14px] flex flex-row items-center">Verkauf dein NFT weiter</div>
             <div className=" inline-block text-[50px]">ZZZ</div>
@@ -34,12 +34,12 @@ const zebraContent = [
     
 
 ,
-    <div className="xl:bg-white xl:pt-5 mr-8">
+    <div className="xl:bg-white xl:pt-5 lg:mr-10">
         <div className="text-[35px] text-center leading-tight pb-6 xl:pb-0">WIE läuft das dann ab?</div>
         <div className="text-center px-10 pt-4"><span className="text-[35px]">1.</span> Komm in den Laden</div>
         <div className="text-center px-10 pt-4"><span className="text-[35px]">2.</span> Scanne den QR-CODE an der kassa</div>
         <div className="text-center px-10 pt-4"><span className="text-[35px]">3.</span> Logge dich über Metamask ein</div>
-        <div className="text-center px-10 pt-4"><span className="text-[35px]">4.</span> Zeig dem personal beim Bezahlen deinen Screen</div>
+        <div className="text-center px-10 pt-4"><span className="text-[35px]">4.</span> Zeig dem personal beim Bezahlen deinen Bildschirm</div>
         <div className="text-center pt-4 text-[50px] text-[#02B11A]"> <span className=" inline-block p-1">-10%</span></div>
     </div>
 ]

@@ -7,6 +7,9 @@ export default function AccordionItem (props) { //TODO: pass in open close state
     const [open, setOpen] = useState(false);
     const [fade, setFade] = useState(false);
 
+    //TODO: set height according to number of items
+
+
     const clickHandler = () => {
         setOpen(!open);
         setFade(!fade);
@@ -15,8 +18,8 @@ export default function AccordionItem (props) { //TODO: pass in open close state
     //TODO: update context what is currently open
 
     const openAnimation = useSpring({
-        from: { opacity: "0", minHeight: "50px", borderRadius: "25px"},
-        to: { opacity: "1", height: open ? "600px" : "50px", borderRadius: "25px" },
+        from: { height: "50px", borderRadius: "25px"},
+        to: { height: open ? "400px" : "50px", borderRadius: "25px" },
         config: { duration: "300" }
       });
     
@@ -81,7 +84,7 @@ export default function AccordionItem (props) { //TODO: pass in open close state
             </animated.div>
 
             <div className={`fixed pt-2 right-5 xl:left-20 bottom-11 transition-all duration-200 ${fade ? "opacity-100" : "opacity-0"} z-10 xl:hidden`}>
-                <div className="bg-black text-white relative z-20 px-2 mb-2">BLUEBERRY BUTTERFLY</div>                                  
+                {/* <div className="bg-black text-white relative z-20 px-2 mb-2">BLUEBERRY BUTTERFLY</div>                                   */}
                 <Image
                     src="/img/sample.png"
                     alt="Picture of the author"
