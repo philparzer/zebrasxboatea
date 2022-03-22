@@ -1,16 +1,16 @@
 const zebraContent = [
     
-    <div className="xl:text-[25px] xl:py-0 py-5 lg:mr-10">
+    <div key={1} className="xl:text-[25px] xl:py-0 py-5 lg:mr-10">
         <div className="text-center xl:px-10">Scanne den QR-Code auf deinem Becher</div>
         <div className="text-center pt-4"> <span className="text-[#02B11A] bg-black inline-block p-1 ">Gewonnen?</span></div>
     </div>
 ,
-    <div className="xl:text-[25px] lg:mr-10">
+    <div key={2} className="xl:text-[25px] lg:mr-10">
         <div className="text-center px-10 ">Du besitzt jetzt ein</div>
         <div className="text-center pt-4 px-10"> <span className="text-white bg-black inline-block p-1">BOATEA X ZEBRAS GUTSCHEIN-NFTs</span></div>
     </div>
 ,
-    <div className="xl:bg-white xl:mt-20 lg:mr-10">
+    <div  key={3} className="xl:bg-white xl:mt-20 lg:mr-10">
         <div className="text-center px-10 flex flex-row xl:grid xl:grid-cols-1 justify-center">
             <div className="text-[30px] leading-tight flex flex-row items-center xl:order-2 lg:justify-center"><div>Was bringt das</div></div>
             <div className="xl:order-1 xl:mt-[-100px]">
@@ -22,7 +22,7 @@ const zebraContent = [
             </div>
 
         </div>
-        <div className=" pt-4 px-10 grid grid-cols-2">
+        <div   className=" pt-4 px-10 grid grid-cols-2">
             <div className=" inline-block text-[50px]">50%</div>
             <div className="text-[14px] flex flex-row items-center">Rabatt solange du ein NFT besitzt</div>
             <div className=" inline-block text-[50px]">$$$</div>
@@ -34,7 +34,7 @@ const zebraContent = [
     
 
 ,
-    <div className="xl:bg-white xl:pt-5 lg:mr-10">
+    <div key={4} className="xl:bg-white xl:pt-5 lg:mr-10">
         <div className="text-[35px] text-center leading-tight pb-6 xl:pb-0">WIE läuft das dann ab?</div>
         <div className="text-center px-10 pt-4"><span className="text-[35px]">1.</span> Komm in den Laden</div>
         <div className="text-center px-10 pt-4"><span className="text-[35px]">2.</span> Scanne den QR-CODE an der kassa</div>
