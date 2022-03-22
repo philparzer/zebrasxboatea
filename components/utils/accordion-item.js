@@ -83,13 +83,13 @@ export default function AccordionItem (props) { //TODO: pass in open close state
 
             </animated.div>
 
-            <div className={`fixed pt-2 right-5 xl:left-20 bottom-11 transition-all duration-200 ${fade ? "opacity-100" : "opacity-0"} z-10 xl:hidden`}>
+            <div className={`fixed pt-2 top-5 right-5 xl:left-20 transition-all duration-200 ${fade ? "opacity-100" : "opacity-0"} z-10 xl:hidden`}>
                 {/* <div className="bg-black text-white relative z-20 px-2 mb-2">BLUEBERRY BUTTERFLY</div>                                   */}
                 <Image
                     src="/img/sample.png"
                     alt="Picture of the author"
-                    width={200}
-                    height={200}
+                    width={150}
+                    height={150}
                 />
                 </div>
             
