@@ -69,7 +69,7 @@ export default function Home() {
             </div>
            
           </div>
-          <div className="col-span-1">´
+          <div className="col-span-1">
           <div className="hidden xl:block mt-20">
           <div className="flex flex-col">
             <img className="relative animate-clouds2" src="img/cloud-multiple-alt.png"></img>
